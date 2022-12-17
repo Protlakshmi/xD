@@ -1,0 +1,5 @@
+local Window = Library.CreateLib("DPIH HUB", "BloodTheme")
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Dupe")
+MainSection:NewButton("lag server", "make server go to up 1000 ping to dupe selected items", function()
+  UserName = "plspldona_te"
